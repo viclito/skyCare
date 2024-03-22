@@ -4,6 +4,8 @@ import gmail from '../../public/assets/gmail.png'
 import telephone from '../../public/assets/telephone.png'
 import Image from 'next/image';
 import logo from '../../public/assets/logo2.png'
+import arrow from '../../public/assets/next.png'
+
 
 
 const SvgComponent: FC<SVGProps<SVGSVGElement>> = ({ className, ...props }) => (
@@ -31,7 +33,7 @@ const Footer = () => {
                 <h3 className='text-base font-bold sm:text-sm'>Our Vision</h3>
                 <p className='text-base sm:text-sm'>Streamlining borders, fostering dreams – <span className='text-primaryDark font-bold'> customs clearance, global forwarding excellence.</span> </p>
                 <div className='w-[100%]'>
-                  <Image alt='' src={logo} className='w-60% m-auto opacity-15' />
+                  <Image alt='' src={logo} className='w-60% m-auto ' />
                 </div>
               </div>
               <div className='w-[40%] flex flex-col gap-3 md:hidden'>
@@ -90,11 +92,21 @@ const Footer = () => {
                   <p className='text-sm sm:text-xs font-medium flex gap-1 items-center'>
                      <a href="tel:919840643853"> <Image src={telephone} alt='' className='w-6 h-6'/></a> 
                      <a href="tel:919840643853">+91-9840643853</a>
+                     
+                  </p>
+                  <p className='text-sm sm:text-xs font-medium flex gap-1 items-center'>
+                     <a href="tel:919840643853"> <Image src={telephone} alt='' className='w-6 h-6'/></a> 
+                     <a href="tel:04448531599">044-48531599</a>
                   </p>
                   
                 </div>
               </div>
             </div>
+        </div>
+
+        <div className='w-screen bg-black flex justify-end gap-2'>
+          <Image alt='' src={arrow} className='w-6'/>
+          <h6 className='text-end text-white pr-6 py-1 font-bold text-xs'><a href="https://portfolio-git-main-berglins-projects.vercel.app/" target='_blank'>Designed and developed by :  Berglin</a> </h6>
         </div>
     </div>
   )

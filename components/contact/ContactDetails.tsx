@@ -133,6 +133,7 @@ const ContactDetails = () => {
                         <div className='flex flex-col gap-2'>
                             <h2 className='text-base font-bold'>Call us on</h2>
                             <p className='text-sm font-semibold max-w-[400px]'> <a href="tel:919840643853">+91-9840643853</a></p>
+                            <p className='text-sm font-semibold max-w-[400px]'> <a href="tel:04448531599">044-48531599</a></p>
                         </div>
                         <div className='flex flex-col gap-2'>
                             <h2 className='text-base font-bold'>Mail Us at</h2>

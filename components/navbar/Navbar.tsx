@@ -34,10 +34,10 @@ const Navbar = () => {
   return (
     <>
       <div className={`sticky top-0 z-50 w-screen ${Styles.glass}`}>
-        <div className={`max-w-[1400px] m-auto px-6 py-4 flex items-center justify-between `}>
+        <div className={`max-w-[1400px] m-auto px-6 py-2 flex items-center justify-between `}>
             {/* logo */}
             <div className=''>
-                <Image src={logo} alt='' className='w-20 h-auto'/>
+                <Image src={logo} alt='' className='w-32 h-auto'/>
             </div>
 
             {/* Links */}
